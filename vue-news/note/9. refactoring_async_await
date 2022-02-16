@@ -17,3 +17,7 @@
 4. 사용법
 - Promise를 반환하는 함수나 api 앞에 await를 붙임.
 
+5. async로 선언한 함수는 어떤 값을 return 하던 간에 Promise로 반환된다.
+
+
+
