@@ -1,5 +1,5 @@
 <template>
-  <canvas id="myChart2"></canvas>
+  <canvas ref="lineChart"></canvas>
 </template>
 
 <script>
@@ -33,7 +33,8 @@ export default {
     };
 
     const myChart = new Chart(
-      document.getElementById('myChart2'),
+      // document.getElementById('lineChart'),
+      this.$refs.lineChart,
       config
     );
   }
