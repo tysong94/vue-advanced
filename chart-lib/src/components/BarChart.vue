@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  props: ['barData'],
   mounted() {
     // const ctx = document.getElementById('barChart').getContext('2d');
     const ctx = this.$refs.barChart
@@ -13,7 +14,7 @@ export default {
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [{
                 label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
+                data: this.barData,
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',

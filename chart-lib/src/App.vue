@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Chart.js</h1>
-    <bar-chart></bar-chart>
+    <bar-chart v-bind:barData=barData></bar-chart>
     <line-chart></line-chart>
   </div>
 </template>
@@ -15,7 +15,12 @@ export default {
   components: {
     BarChart,
     LineChart,
-  }
+  },
+  data() {
+    return {
+      barData: [12, 19, 3, 5, 2, 3],
+    }
+  },
 }
 </script>
 
