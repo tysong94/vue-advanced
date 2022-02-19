@@ -2,10 +2,15 @@
   <div>
     <ul>
       <item>아이템 1</item>
-      <item>아이템 2</item>
+      <item>
+        <div>
+          아이템 2
+          <button>click me</button>
+        </div>
+        <img src="./assets/endgame.png" alt="엔드게임"
+          height="50px" width="50px">
+        </item>
       <item>아이템 3</item>
-      <item>아이템 4</item>
-      <item>아이템 5</item>
     </ul>
   </div>
 </template>
