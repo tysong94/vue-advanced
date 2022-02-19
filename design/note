@@ -1,0 +1,7 @@
+컴포넌트 디자인 패턴. 
+
+1. common -기본적인 컴포넌트 설계방식
+상위 컴포넌트 : Container Component(데이터를 저장하고 처리하는)
+하위 컴포넌트 : Presentational Component(데이터 표현만 함)
+
+2. 
