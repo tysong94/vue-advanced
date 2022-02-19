@@ -3,8 +3,6 @@
 </template>
 
 <script>
-import Chart from 'chart.js/auto';
-
 export default {
   mounted() {
     const labels = [
@@ -32,7 +30,7 @@ export default {
       options: {}
     };
 
-    const myChart = new Chart(
+    new this.$_Chart(
       // document.getElementById('lineChart'),
       this.$refs.lineChart,
       config

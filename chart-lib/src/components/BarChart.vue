@@ -3,13 +3,11 @@
 </template>
 
 <script>
-import Chart from 'chart.js/auto';
-
 export default {
   mounted() {
     // const ctx = document.getElementById('barChart').getContext('2d');
     const ctx = this.$refs.barChart
-    const barChart = new Chart(ctx, {
+    new this.$_Chart(ctx, {
         type: 'bar',
         data: {
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
