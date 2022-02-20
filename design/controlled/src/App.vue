@@ -1,5 +1,5 @@
 <template>
-  <check-box v-model:value="checked"></check-box>
+  <check-box v-model="checked"></check-box>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ export default {
   components: {
     CheckBox
   },
-  data(){
+  data() {
     return {
       checked: true
     }

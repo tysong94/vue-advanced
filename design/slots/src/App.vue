@@ -10,7 +10,9 @@
         <img src="./assets/endgame.png" alt="엔드게임"
           height="50px" width="50px">
         </item>
-      <item>아이템 3</item>
+      <item>
+        <div>아이템 3</div>
+      </item>
     </ul>
   </div>
 </template>
