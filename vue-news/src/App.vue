@@ -34,6 +34,7 @@ export default {
     }
   },
   created() {
+    console.log('APP_TITLE', process.env.VUE_APP_TITLE);
     bus.$on('start:spinner', this.startSpinner); // $on() : 비동기 함수임
     bus.$on('end:spinner', this.endSpinner); // 비동기 함수임
   },
