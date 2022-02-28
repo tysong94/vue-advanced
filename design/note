@@ -19,4 +19,7 @@
 (2) checkbox 태그에는 `checked / change`
 (3) select 태그에는 `value / change`
 
+4. renderless Component
+- created() 라이프 사이클 훅을 사용하지 않고
+- render() 라이프 사이클 훅을 사용하여 렌더링 없이 데이터만 별도로 표시함.
 
